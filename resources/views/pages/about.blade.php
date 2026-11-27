@@ -3,7 +3,8 @@
 @section('title', 'About')
 
 @section('content')
-    <h2>About This Application</h2>
-    <p>This point-of-sale application organizes customer and user account information.</p>
-    <p>The account pages currently use sample PHP arrays as temporary data.</p>
+    <h2>About This System</h2>
+
+    <p>This system helps organize tasks by date and status.</p>
+    <p>Developed by Maverrick James Watanabe.</p>
 @endsection

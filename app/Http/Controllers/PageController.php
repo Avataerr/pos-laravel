@@ -2,11 +2,15 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\User;
+
 class PageController extends Controller
 {
-    public function home()
+    public function profile()
     {
-        return view('pages.home');
+        $user = User::firstOrFail();
+
+        return view('pages.profile', ['user' => $user]);
     }
 
     public function about()
